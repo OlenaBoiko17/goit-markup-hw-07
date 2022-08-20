@@ -9,23 +9,17 @@
 }
 
 
-.header-list {
+.navigation__list {
     display: flex;
    
 }
 
 
-.header-link:not(:last-child) {
+.navigation__link:not(:last-child) {
  margin-right: 50px;
 }
 
-
-.header-link {
-   
-}
-
-
-.header-item { 
+.navigation__item { 
     display: block;
    
     font-weight: 500;
@@ -55,7 +49,7 @@
     }
 }
 
-.header-contact-list {
+.connect__list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +59,7 @@
 
 
 
-.header-contaktdown {
+.connect__contaktdown {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -80,13 +74,13 @@
     
 }
 
-.header-icon {
+.connect__icon {
     fill: currentColor;
     margin-right: 10px;
     
 }
 
-.header-contakt {
+.connect__contakt {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -103,7 +97,7 @@
 }
 
 
-.header-connect {
+.header__connect {
     margin-left: auto;
    
 }

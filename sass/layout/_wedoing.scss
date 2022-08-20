@@ -4,7 +4,7 @@
     
 }
 
-.wedoing-title {
+.wedoing__title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -15,17 +15,17 @@
     margin-bottom: 50px;
 }
 
-.wedoing-list {
+.wedoing__list {
     display: flex;
     column-gap: 30px;
 }
 
-.wedoing-link {
+.wedoing__link {
     width: calc((100% - 60px) / 3);
     
 }
 
-.wedoing-thumb {
+.wedoing__thumb {
     position: relative;
     &:before {
         display: inline-block;
@@ -42,7 +42,7 @@
 
 
 
-.wedoing-text {
+.wedoing__text {
     position: absolute;
    
     bottom: 27px;

@@ -6,14 +6,14 @@
 }
 
 
-.menu-images-list {
+.menu__menu-icon {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 30px;
 }
 
-.menu-img {
+.menu-icon__img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,17 +26,17 @@
 
 
 
-.menu-list {
+.menu__description {
     display: flex;
     gap: 30px;
 }
 
-.menu-link {
+.description__link {
     
     min-width: 270px;
 }
 
-.menu-title {
+.description__title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -48,7 +48,7 @@
     
 }
 
-.menu-text {
+.description__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

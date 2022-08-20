@@ -1,4 +1,4 @@
-.header-logo-link {
+.logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -8,34 +8,43 @@
     
 }
 
-.header-logo-accent  {
+.header__logo  {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color:  #000000;
+    // color:  #000000;
     margin-right: 93px;
     
         
 }
 
-.footer-logo-link {
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
-}
+// .footer-logo-link {
+//     font-family: Raleway, sans-serif;
+//     font-weight: 700;
+//     font-size: 26px;
+//     line-height: 1.19;
+//     letter-spacing: 0.03em;
+//     color: var(--accent-color);
+// }
 
-.footer-logo-accent {
+.footer_logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    // color: #FFFFFF;
     
     
 } 
+
+
+.logo--color-black {
+    color:  #000000;
+ }
+
+ .logo--color-white {
+    color: #FFFFFF;
+ }
